@@ -1,0 +1,275 @@
+body {
+    background: #0f0f11;
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+}
+.navbar {
+    background: #1a1a1d;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.links a {
+    color: #ccc;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.links a:hover {
+    color: white;
+}
+.btn-primary {
+    background: #5865F2;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 14px;
+    margin-top: 15px;
+    background: #333;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.btn:hover {
+    background: #444;
+}
+main {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+.title {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.card {
+    background: #1a1a1d;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.guild-card {
+    background: #1a1a1d;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+.team-section {
+    padding: 60px 20px;
+    background: #0d0d0f;
+    text-align: center;
+}
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+.team-card {
+    background: #1a1a1d;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+.team-card:hover {
+    transform: translateY(-5px);
+}
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.team-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.team-card p {
+    color: #aaa;
+    font-size: 16px;
+}
+.bot-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bot-image {
+    width: 150px;  /* możesz zwiększyć np. 200px lub 250px */
+    height: 150px;
+    border-radius: 20px;  /* zaokrąglone rogi */
+    object-fit: cover;
+    border: 3px solid #5865F2; /* opcjonalny efekt ramki */
+}
+.team-premium-section {
+    display: flex;
+    gap: 50px;
+    padding: 60px 20px;
+    background: #0d0d0f;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-column, .premium-column {
+    flex: 1 1 400px;
+    max-width: 500px;
+}
+
+.premium-column h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.premium-column ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.premium-column ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-premium {
+    background: #ffac33;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-premium:hover {
+    background: #ffaa00;
+}
+
+.team-column .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.team-card {
+    background: #1a1a1d;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.team-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.team-card h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-card p {
+    color: #aaa;
+    font-size: 16px;
+}
+.premium-box {
+    background: #1a1a1d;
+    border-radius: 12px;
+    padding: 30px;
+    max-width: 400px;
+    margin: 30px auto;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.premium-box h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffac33;
+}
+
+.premium-box p {
+    margin-bottom: 15px;
+}
+
+#server-select {
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    background: #0d0d0f;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.premium-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.premium-features li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+#buy-premium-btn {
+    background: #ffac33;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#buy-premium-btn:hover {
+    background: #ffaa00;
+}
