@@ -1,0 +1,21 @@
+{
+  "name": "htone-webiste-oficial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
