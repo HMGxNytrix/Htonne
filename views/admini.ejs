@@ -1,0 +1,7 @@
+<h1>Administratorzy</h1>
+<ul>
+    <% admins.forEach(a => { %>
+        <li><%= a.name %> – <%= a.role %></li>
+    <% }) %>
+</ul>
+<a href="/panel" class="btn-primary">Otwórz panel</a>

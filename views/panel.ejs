@@ -1,0 +1,12 @@
+<h1>Panel Zarządzania Botem</h1>
+<p>Wybierz serwer, aby zarządzać użytkownikami i rolami.</p>
+<div class="guilds">
+    <% guilds.forEach(g => { %>
+        <div class="guild-card">
+            <h2><%= g.name %></h2>
+            <p>ID: <%= g.id %></p>
+            <a href="/kick/<%= g.id %>/<user.id %>" class="btn">Kick użytkownika (przykład)</a>
+        </div>
+    <% }) %>
+</div>
+<a href="/panel" class="btn-primary">Otwórz panel</a>
